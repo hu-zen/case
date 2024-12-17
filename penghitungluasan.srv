@@ -1,0 +1,7 @@
+# Request
+float32 diameter  # Diameter tanah dalam meter
+
+---
+# Response
+float32 area      # Luas tanah dalam meter persegi
+float32 insentif  # Total insentif yang diperoleh
