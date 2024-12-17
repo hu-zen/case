@@ -27,7 +27,7 @@ if __name__ == "__main__":
 
     # Diameter sudah ditentukan otomatis (misalnya 80 meter)
     diameter = 80.0  
-    rospy.loginfo(f"Requesting incentive calculation for diameter: {diameter} m")
+    rospy.loginfo(f"Meminta nilai diameter: {diameter} m")
 
     # Panggil server
     insentif_total = hitung_insentif_client(diameter)
@@ -35,4 +35,4 @@ if __name__ == "__main__":
         rospy.loginfo(f"Total Insentif: Rp {insentif_total:.2f}")
         print(f"Total Insentif untuk diameter {diameter} m: Rp {insentif_total:.2f}")
     else:
-        rospy.loginfo("Failed to retrieve incentive data.")
+        rospy.loginfo("gagal.")
