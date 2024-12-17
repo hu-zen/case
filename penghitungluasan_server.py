@@ -28,7 +28,7 @@ def penghitungluasan_server():
     """
     rospy.init_node('penghitungluasan_server')
     service = rospy.Service('penghitungluasan', penghitungluasan, handle_penghitungluasan)
-    rospy.loginfo("Penghitung Luasan Server is ready.")
+    rospy.loginfo("Penghitung Luasan Server siap.")
     rospy.spin()
 
 if __name__ == "__main__":
