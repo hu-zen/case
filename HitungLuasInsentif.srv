@@ -1,0 +1,5 @@
+float64 diameter
+float64 insentif_per_m2
+---
+float64 luas
+float64 total_insentif
